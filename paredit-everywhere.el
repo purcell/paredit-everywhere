@@ -47,6 +47,10 @@
     (define-key m (kbd "M-)") 'paredit-close-round-and-newline)
     (define-key m (kbd "M-]") 'paredit-close-square-and-newline)
     (define-key m (kbd "M-}") 'paredit-close-curly-and-newline)
+    (define-key m (kbd "M-S") 'paredit-split-sexp)
+    (define-key m (kbd "M-J") 'paredit-join-sexp)
+    (define-key m (kbd "M-s") 'paredit-splice-sexp)
+    (define-key m (kbd "M-r") 'paredit-raise-sexp)
     m)
   "Keymap for `paredit-everywhere-mode'.")
 
