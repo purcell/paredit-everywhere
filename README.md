@@ -8,6 +8,9 @@ reasonable sexp-oriented navigation.
 This library, then, provides a minor mode which enables a subset
 of the `paredit` library's editing commands in non-lisp buffers.
 
+A grander project offering similar functionality is Matus Goljer's
+[smartparens package](https://github.com/Fuco1/smartparens).
+
 Installation
 =============
 
