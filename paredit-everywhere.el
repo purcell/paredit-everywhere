@@ -52,6 +52,8 @@
     (define-key m (kbd "M-J") 'paredit-join-sexp)
     (define-key m (kbd "M-s") 'paredit-splice-sexp)
     (define-key m (kbd "M-r") 'paredit-raise-sexp)
+    (define-key m (kbd "M-DEL") 'paredit-backward-kill-word)
+    (define-key m (kbd "M-d") 'paredit-forward-kill-word)
     m)
   "Keymap for `paredit-everywhere-mode'.")
 
