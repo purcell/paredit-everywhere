@@ -48,7 +48,7 @@
     (define-key m (kbd "M-}") 'paredit-close-curly-and-newline)
     (define-key m (kbd "M-\"") 'paredit-meta-doublequote)
     (define-key m (kbd "M-S") 'paredit-split-sexp)
-    (define-key m (kbd "M-J") 'paredit-join-sexp)
+    (define-key m (kbd "M-J") 'paredit-join-sexps)
     (define-key m (kbd "M-s") 'paredit-splice-sexp)
     (define-key m (kbd "M-r") 'paredit-raise-sexp)
     (define-key m (kbd "M-DEL") 'paredit-backward-kill-word)
