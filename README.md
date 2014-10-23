@@ -32,7 +32,7 @@ your mode hooks. In Emacs 24 and greater, `prog-mode-hook` is a great choice:
 Use <kbd>C-h m</kbd> to see which paredit commands are available.
 
 [marmalade]: http://marmalade-repo.org
-[melpa]: http://melpa.milkbox.net
+[melpa]: http://melpa.org
 
 <hr>
 
