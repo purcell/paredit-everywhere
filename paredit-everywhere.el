@@ -42,7 +42,6 @@
     (define-key m (kbd "C-)") 'paredit-forward-slurp-sexp)
     (define-key m (kbd "C-}") 'paredit-forward-barf-sexp)
     (define-key m (kbd "M-(") 'paredit-wrap-round)
-    (define-key m (kbd "M-{") 'paredit-wrap-curly)
     (define-key m (kbd "M-)") 'paredit-close-round-and-newline)
     (define-key m (kbd "M-]") 'paredit-close-square-and-newline)
     (define-key m (kbd "M-}") 'paredit-close-curly-and-newline)
