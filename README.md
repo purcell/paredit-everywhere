@@ -15,7 +15,7 @@ Installation
 =============
 
 If you choose not to use one of the convenient packages in
-[Melpa][melpa] and [Marmalade][marmalade], you'll need to add the
+[MELPA][melpa], you'll need to add the
 directory containing `paredit-everywhere.el` to your `load-path`, and then
 `(require 'paredit-everywhere)`.
 
@@ -31,7 +31,6 @@ your mode hooks. In Emacs 24 and greater, `prog-mode-hook` is a great choice:
 
 Use <kbd>C-h m</kbd> to see which paredit commands are available.
 
-[marmalade]: http://marmalade-repo.org
 [melpa]: http://melpa.org
 
 <hr>
