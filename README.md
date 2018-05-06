@@ -1,3 +1,5 @@
+<a href="https://www.patreon.com/sanityinc"><img alt="Support me" src="https://img.shields.io/badge/Support%20Me-%F0%9F%92%97-ff69b4.svg"></a>
+
 paredit-everywhere.el
 =====================
 
@@ -35,7 +37,7 @@ Use <kbd>C-h m</kbd> to see which paredit commands are available.
 
 <hr>
 
-[![](http://api.coderwall.com/purcell/endorsecount.png)](http://coderwall.com/purcell)
+[Support this project and my other Open Source work](https://www.patreon.com/sanityinc)
 
 [![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://uk.linkedin.com/in/stevepurcell)
 
