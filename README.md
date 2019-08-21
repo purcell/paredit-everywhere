@@ -27,7 +27,7 @@ Usage
 Enable the minor mode in non-lisp buffers by adding `paredit-everywhere-mode` to
 your mode hooks. In Emacs 24 and greater, `prog-mode-hook` is a great choice:
 
-```lisp
+```elisp
 (add-hook 'prog-mode-hook 'paredit-everywhere-mode)
 ```
 
