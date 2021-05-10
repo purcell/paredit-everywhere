@@ -57,9 +57,8 @@
 ;;;###autoload
 (define-minor-mode paredit-everywhere-mode
   "A cut-down version of paredit which can be used in non-lisp buffers."
-  nil
-  " Par-"
-  paredit-everywhere-mode-map)
+  :lighter " Par-"
+  :keymap paredit-everywhere-mode-map)
 
 (defun turn-off-paredit-everywhere-mode ()
   "Disable `paredit-everywhere-mode'."
